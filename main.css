@@ -5,9 +5,14 @@ html {
 }
 
 body {
-
+  /* Top right bottom left */
+  padding: 15px 15px 15px 15px;
 }
 
 footer {
 
+}
+
+.welcomebox {
+  text-align: center;
 }
