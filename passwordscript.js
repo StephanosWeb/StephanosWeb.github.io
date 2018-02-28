@@ -9,7 +9,7 @@ function loginStudent() {
   var entry = prompt('Please enter the password provided by your teacher:');
   var key = encryptionStudent();
   if (entry.toLowerCase() == key) {
-      window.location='/downloads/TycoonExercise4-Finished.rbxl';
+      window.location='/downloads/TycoonExercise5-Finished.rbxl';
   }
 }
 
@@ -24,6 +24,6 @@ function loginTeacher() {
   var entry = prompt('Password:');
   var key = encryptionTeacher();
   if (entry.toLowerCase() == key) {
-      window.location='/teacher/Roblox-Tycoon4.pptx';
+      window.location='/teacher/Roblox-Tycoon5.pptx';
   }
 }
