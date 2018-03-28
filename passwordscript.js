@@ -24,6 +24,6 @@ function loginTeacher() {
   var entry = prompt('Password:');
   var key = encryptionTeacher();
   if (entry.toLowerCase() == key) {
-      window.location='/teacher/Roblox-Tycoon7.pptx';
+      window.location='/teacher/Roblox-Tycoon8.pptx';
   }
 }
