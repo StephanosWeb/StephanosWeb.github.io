@@ -1,0 +1,92 @@
+/* Global styles */
+body {
+    font: 400 16px/1.8 Lato, sans-serif;
+}
+
+footer {
+  /* Vertically centre the text */
+  line-height: 50px;
+  background-color: #2d2d30;
+  padding: 14px 0;
+}
+
+h3 {
+    margin: 0 0 15px 0;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+body > .container {
+    padding: 80px 20px 20px 20px;
+}
+
+footer > .container {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/* Divider styling */
+.divider {
+  margin: 0px 3rem 0px;
+  border: 0.5px solid #2d2d30;
+  opacity: 0.9;
+  /* box-shadow: 0 20px 20px -20px #333; */
+}
+
+/* Band stylings */
+.member {
+  border: 10px solid transparent;
+  margin-bottom: 25px;
+}
+
+.member:hover {
+  border-color: #f1f1f1;
+}
+
+/* Navigation bar styles */
+.navbar {
+      font-family: Montserrat, sans-serif;
+      background-color: #2d2d30;
+      letter-spacing: 4px;
+      opacity: 0.9;
+      /* font-size: 15px; */
+}
+
+
+/* Icon styles */
+/* Icon customisations */
+.fa {
+  font-size: 18px; /* Set size of icons */
+  color: #fff;
+}
+.fa:hover {
+  text-decoration: none; /* Remove default underline for links */
+}
+.fa-github:hover {
+  color: #333;
+}
+.fa-twitter:hover {
+  color: #55ACEE;
+}
+.fa-facebook-square:hover {
+  color: #3B5998;
+}
+.fa-linkedin-square:hover {
+  color: #0077B5;
+}
+.fa-instagram:hover {
+  color: #833ab4;
+}
+
+.footer-text {
+  color: #fff;
+}
+
+.footer-text:hover {
+  color: #89CFF0;
+}
+
+/* Form styling */
+form > .form-row > .col {
+  margin-bottom: 0px;
+}
