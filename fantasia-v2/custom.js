@@ -1,3 +1,9 @@
+// Collapse mobile navbar on click
+$('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
+
+// Scroll spy
 $(document).ready(function(){
   // Add smooth scrolling to all links in navbar
   $(".navbar a").on('click', function(event) {
