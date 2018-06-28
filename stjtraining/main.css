@@ -67,7 +67,7 @@ footer > .container {
 
 @media (max-width: 575.98px) {
   .navbar-brand {
-    font-size: 22px;
-    letter-spacing: 8px;
+    font-size: 18px;
+    letter-spacing: 5px;
   }
 }
