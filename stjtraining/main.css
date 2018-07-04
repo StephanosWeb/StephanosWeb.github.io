@@ -1,8 +1,8 @@
 /* --- GLOBAL STYLES --- */
 body {
     font: 400 16px/1.8 Lato, sans-serif;
-    color: #FFF; /* Light Blue */
-    background-color: #659DBD;
+    color: #FFF;
+    background-color: #FFF;
     /* background-color: #FBEEC1; */ /* Beige */
 }
 
@@ -59,7 +59,7 @@ footer > .container {
 /* Navigation bar styles */
 .navbar {
       font-family: Montserrat, sans-serif;
-      background-color: black;
+      background-color: #659DBD;
       letter-spacing: 4px;
       padding-right: 40px;
       padding-left: 40px;
