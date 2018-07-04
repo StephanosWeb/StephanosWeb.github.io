@@ -1,9 +1,8 @@
 /* --- GLOBAL STYLES --- */
 body {
     font: 400 16px/1.8 Lato, sans-serif;
-    /* color: #8D8741; */ /* Dark Green */
-    /* color: #659DBD; */ /* Light Blue */
-    /* background-color: #659DBD; */
+    color: #FFF; /* Light Blue */
+    background-color: #659DBD;
     /* background-color: #FBEEC1; */ /* Beige */
 }
 
@@ -23,7 +22,7 @@ h3 {
 footer {
     /* Vertically centre the text */
     line-height: 50px;
-    background-color: #2d2d30;
+    background-color: #2D2D30;
     padding: 14px 0;
 }
 
@@ -60,15 +59,26 @@ footer > .container {
 /* Navigation bar styles */
 .navbar {
       font-family: Montserrat, sans-serif;
-      background-color: #ffffff;
+      background-color: #FFF;
       letter-spacing: 4px;
-      opacity: 0.9;
-      /* font-size: 15px; */
+      padding-right: 40px;
+      padding-left: 40px;
+      font-weight: bold;
 }
 .navbar-brand {
       font-size: 30px;
-      font-weight: bold;
       letter-spacing: 8px;
+}
+
+/* Override bootstrap 4 colors */
+/* .nav-link {
+  color: black !important;
+}
+.nav-link:hover {
+  color: rgb(64,64,64) !important;
+} */
+.nav-item > .active {
+  color: rgb(170, 3, 9) !important;
 }
 
 @media (max-width: 575.98px) {
@@ -80,5 +90,10 @@ footer > .container {
   .navbar-brand > img {
     width: 60px;
     height: 30px;
+  }
+
+  .navbar {
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
