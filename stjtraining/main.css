@@ -59,7 +59,7 @@ footer > .container {
 /* Navigation bar styles */
 .navbar {
       font-family: Montserrat, sans-serif;
-      background-color: #FFF;
+      background-color: black;
       letter-spacing: 4px;
       padding-right: 40px;
       padding-left: 40px;
@@ -77,9 +77,9 @@ footer > .container {
 .nav-link:hover {
   color: rgb(64,64,64) !important;
 } */
-.nav-item > .active {
+/* .nav-item > .active {
   color: rgb(170, 3, 9) !important;
-}
+} */
 
 @media (max-width: 575.98px) {
   .navbar-brand {
