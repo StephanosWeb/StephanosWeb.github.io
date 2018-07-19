@@ -1,0 +1,42 @@
+/* Global Styles */
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+/* Custom Styles */
+.cover {
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    Animation: CoverFade 2s linear 1s forwards;
+}
+
+/* Animation */
+@keyframes CoverFade {
+  from {
+    background-image: url("assets/cover/cover-bw.jpg"); */
+  } to {
+    background-image: url("assets/cover/cover.jpg")
+  }
+}
+
+/* Responsive layout */
+@media all and (orientation: landscape) {
+  .cover {
+    /* The image used */
+    background-image: url("assets/cover/cover-bw.jpg");
+  }
+}
+
+@media all and (orientation: portrait) {
+  .cover {
+    /* The image used */
+    background-image: url("assets/cover/cover-portrait.jpg");
+  }
+}

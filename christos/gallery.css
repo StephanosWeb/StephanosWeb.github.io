@@ -1,0 +1,60 @@
+/* Global styles */
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Custom styles */
+.header {
+    text-align: center;
+    padding: 32px;
+    padding-bottom: 10px;
+}
+
+.btn {
+  margin: 4px;
+}
+
+/* Hide elements by default */
+.col-md-4 {
+  display: none;
+  padding: 4px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+.content {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(41,45,52);
+}
+
+.content:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
