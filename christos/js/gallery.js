@@ -1,10 +1,9 @@
 // Set initial filter to all
 filterSelection("all")
 
-
 function filterSelection(c) {
   var x, i;
-  x = document.getElementsByClassName("col-md-4");
+  x = document.getElementsByClassName("column");
   if (c == "all") c = "";
   for (i = 0; i < x.length; i++) {
     w3RemoveClass(x[i], "show");
@@ -33,7 +32,6 @@ function w3RemoveClass(element, name) {
   }
   element.className = arr1.join(" ");
 }
-
 
 // Add active class to the current button (highlight it)
 var btnContainer = document.getElementById("btnContainer");

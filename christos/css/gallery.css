@@ -17,9 +17,10 @@ body {
 }
 
 /* Hide elements by default */
-.col-md-4 {
+.column {
   display: none;
   padding: 4px;
+  width: 25%;
 }
 
 /* The "show" class is added to the filtered elements */
@@ -29,6 +30,10 @@ body {
 
 .content {
   position: relative;
+
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
 }
 
 .overlay {
@@ -57,4 +62,11 @@ body {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
 }
