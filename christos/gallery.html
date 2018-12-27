@@ -51,7 +51,7 @@
   <div class="row">
     <div class="column landscapes">
       <div class="content">
-        <img class="asyncImage" src="assets/lowres-test/1.JPG" data-src="assets/test/1.JPG" style="width:100%">
+        <img class="asyncImage" src="assets/lowres-test/1.JPG" data-src="assets/test/1.JPG" onclick="presentModal(this);" style="width:100%">
         <div class="overlay">
           <div class="text">Camden House</div>
         </div>
@@ -132,9 +132,20 @@
   </div>
 
 
+  <!-- The Modal -->
+  <div id="galleryModal" class="modal">
+    <!-- The Close Button -->
+    <span class="close">&times;</span>
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="modalImg">
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption"></div>
+  </div>
+
   <!-- Custom JavaScripts -->
   <script src="js/gallery.js"></script>
   <script src="js/imgLoad.js"></script>
+  <script src="js/modal.js"></script>
 </body>
 
 <!-- Footer -->

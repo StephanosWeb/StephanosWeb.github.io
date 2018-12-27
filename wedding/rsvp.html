@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Other meta data -->
+    <meta name="description" content="">
+    <meta name="author" content="Stephanos Nicolaou">
+
+    <!-- Title -->
+    <title>RSVP</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link href="css/main.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
+  </head>
+  <body>
+    <div class='cover-container d-flex w-100 h-100 p-3 mx-auto flex-column'>
+      <!-- Header -->
+      <header class='masthead mb-auto text-center'>
+        <h1 class="masthead-brand">Andy & Krissy</h1>
+        <nav class="nav nav-masthead justify-content-center">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="info.html">Information</a>
+          <a class="nav-link" href="#">The Wedding Party</a>
+          <a class="nav-link active" href="rsvp.html">RSVP</a>
+        </nav>
+      </header>
+
+      <!-- Main body -->
+      <main role="main" class="cover">
+        <h1 class='text-center'>RSVP</h1>
+        <hr>
+        <form>
+          <div class="form-group">
+            <label for="names">Full names of those attending seperated by commas:</label>
+            <input type="text" id="names" class="form-control" aria-describedby="namesHelpBlock" placeholder="Villas, Arostos, Zeus, ...etc.">
+            <small id="namesHelpBlock" class="form-text font-italic">
+              Please ensure all names are spelt correctly as these will be used to display on your placeholders, thank you.
+            </small>
+          </div>
+          <div class="form-group">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="attendanceOption" id="accept" value="1">
+              <label class="form-check-label" for="accept">Accepts with pleasure</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="attendanceOption" id="decline" value="0">
+              <label class="form-check-label" for="decline">Regretfully declines</label>
+            </div>
+          </div>
+          <!-- <div class="form-group">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="transportationOption" id="trasnport" value="1">
+              <label class="form-check-label" for="accept">Transportation required</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="transportationOption" id="noTransport" value="0">
+              <label class="form-check-label" for="decline">No transportation</label>
+            </div>
+          </div> -->
+          <div class="form-group row">
+            <div class="col-sm-4">Dietary requirements (tick if applicable): </div>
+              <div class="col-sm-4">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="vegetarian">
+                  <label class="form-check-label" for="vegetarian">Vegetarian</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="vegan">
+                  <label class="form-check-label" for="vegetarian">Vegan</label>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="lactose">
+                  <label class="form-check-label" for="vegetarian">Lactose intolerance</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="nuts">
+                  <label class="form-check-label" for="vegetarian">Nut allergies</label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+        </form>
+        <hr>
+      </main>
+
+      <!-- Footer -->
+      <footer class="mastfoot mt-auto text-center">
+        <div class="row">
+          <div class="col-sm-6">
+            <h3>Andreas Georgiou</h3>
+            <p>tel: 0343423652</p>
+            <p>email: andy@zambes.com</p>
+          </div>
+          <div class="col-sm-6">
+            <h3>Krissy V</h3>
+            <p>tel: 845943244</p>
+            <p>email: krissyv@email.com</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+</html>
