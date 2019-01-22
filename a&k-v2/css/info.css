@@ -1,0 +1,126 @@
+/* Global Styles */
+/* body, html {
+    height: 100%;
+    background-color: #f9e5e8;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+} */
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: #D4AF37;
+
+  height: 100%;
+  background-color: #f9e5e8;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+
+  /* Full height */
+  /* height: 100%; */
+
+  /* Center and scale the image nicely */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../assets/sheraton.jpg");
+  background-blend-mode: soft-light; */
+  /* Image */
+}
+
+/* Custom Styles */
+/* Header */
+.masthead {
+  margin-bottom: 0.5rem;
+  background-image: url("../assets/banner.jpg");
+  background-size: contain;
+  border-bottom-style: outset;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+  font-family: 'Parisienne', cursive;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  /* font-family: 'Parisienne', cursive; */
+  color: rgba(0, 0, 0, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(0, 0, 0, .5);
+}
+
+.nav-link {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.nav-masthead .active {
+  color: #000000;
+  border-bottom-color: #000000;
+}
+
+/* Links */
+a, a:focus, a:hover {
+  color: #000000;
+}
+
+/* Cover */
+.cover {
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.cover > .row > .col-sm-10 > h1 {
+  font-family: 'Parisienne', cursive;
+  font-size: 400%;
+}
+.cover > .row > .col-sm-10 > p {
+  /* font-family: 'Parisienne', cursive; */
+  text-shadow: 0 0rem 0rem rgba(0, 0, 0, .5);
+  padding-bottom: 25px;
+}
+
+.no-padding {
+  padding-bottom: 0px !important;
+}
+
+/* Footer */
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+}
+
+/* Horizontal rule */
+hr {
+  border-top: 4px double #8c8b8b;
+	text-align: center
+}
+
+hr::after{
+  content: '\002665';
+	display: inline-block;
+	position: relative;
+	top: -15px;
+	padding: 0 10px;
+	background: #f9e5e8;
+	color: #8c8b8b;
+	font-size: 18px;
+}
+
+.final {
+  padding-bottom: 50px !important;
+}
+
+/* Images */
+.emoji {
+  display: inline-block;
+  max-width: 150px;
+  object-fit: contain;
+  padding-bottom: 15px;
+}
