@@ -97,6 +97,15 @@ a, a:focus, a:hover {
   font-size: 130%;
 }
 
+label {
+  font-size: 130%;
+}
+
+small {
+  font-size: 100%;
+  font-style: italic;
+}
+
 /* Footer */
 .mastfoot {
   color: rgba(255, 255, 255, .7);
