@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Other meta data -->
+    <meta name="description" content="">
+    <meta name="author" content="Stephanos Nicolaou">
+
+    <!-- Title -->
+    <title>Andy & Krissy's Wedding Day</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link href="css/rsvp.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Lobster|Lobster+Two|Poiret+One|Parisienne" rel="stylesheet">
+  </head>
+  <body class='text-center'>
+    <div class='cover-container d-flex w-100 h-100 mx-auto flex-column'>
+      <!-- Header -->
+      <!-- Add mb-auto to center it -->
+      <header class='masthead p-3'>
+        <nav class="nav nav-masthead navbar-expand-lg">
+          <a class="navbar-brand masthead-brand" href="index.html">
+            <img src="assets/100x50.png" width="100" height="50" alt="Andy & Krissy's Logo">
+            <!-- Andreas & Krissy -->
+          </a>
+          <button class="navbar-toggler navbar-light ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- <a class="masthead-brand nav-link" href="index.html">Andy & Krissy</a> -->
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <a class="nav-link" href="info.html">Transportation Info</a>
+            <a class="nav-link" href="ceremony.html">Greek Ceremony & Traditions</a>
+            <a class="nav-link" href="party.html">The Wedding Party</a>
+            <a class="nav-link active" href="rsvp.html">RSVP</a>
+          </div>
+        </nav>
+      </header>
+
+      <!-- Main body -->
+      <main role="main" class="cover">
+        <div class="row">
+          <div class="col-sm-2"></div>
+          <div class="col-sm-8">
+            <h1>RSVP</h1>
+            <h3>Please respond by TBC</h3>
+            <form>
+              <!-- Names -->
+              <div class="form-group">
+                <label for="names">Full names seperated by commas:</label>
+                <input type="text" id="names" class="form-control" aria-describedby="namesHelpBlock" placeholder="John Doe, Jane Doe ...">
+                <small id="namesHelpBlock" class="form-text font-italic">
+                  Please ensure all names are spelt correctly as these will be used to display on your placeholders, thank you.
+                </small>
+              </div>
+              <!-- Attendace -->
+              <div class="form-group">
+                <label for="attendanceOption">Attendace:</label>
+                <div class="custom-control custom-radio form-check">
+                  <input type="radio" id="accept" name="attendanceOption" class="custom-control-input">
+                  <label class="custom-control-label" for="accept">Accept with pleasure</label>
+                </div>
+                <div class="custom-control custom-radio form-check">
+                  <input type="radio" id="decline" name="attendanceOption" class="custom-control-input">
+                  <label class="custom-control-label" for="decline">Decline with regret</label>
+                </div>
+              </div>
+              <!-- Coach -->
+              <div class="form-group">
+                <label for="attendanceOption">Coach transportation from Church to reception venue:</label>
+                <div class="custom-control custom-radio">
+                  <input type="radio" id="coach" name="coachOption" class="custom-control-input">
+                  <label class="custom-control-label" for="coach">Yes, we'll board the coach</label>
+                </div>
+                <div class="custom-control custom-radio">
+                  <input type="radio" id="noCoach" name="coachOption" class="custom-control-input">
+                  <label class="custom-control-label" for="noCoach">No, we'll make our own way</label>
+                </div>
+              </div>
+              <!-- Vegetarian meal -->
+              <div class="form-group">
+                <label for="veg">Number of Vegetarian meals required</label>
+                <select id="veg" class="form-control">
+                  <option selected>None</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                </select>
+              </div>
+              <!-- Message -->
+              <div class="form-group">
+                <label for="message">Message (e.g. any further dietary requirements etc.)</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send RSVP</button>
+            </form>
+            <div class="row" style="padding-top:30px; padding-bottom:50px;">
+              <div class="col-sm-1"></div>
+              <div class="col-sm-5">
+                <h4>Andreas Georgiou</h4>
+                <h4>07939 511240</h4>
+                <h4>andy_georgiou@hotmail.co.uk</h4>
+              </div>
+              <div class="col-sm-5">
+                <h4>Krissy Varnavas</h4>
+                <h4>07545 284880</h4>
+                <h4>varnavas_kristiana@hotmail.o.uk</h4>
+              </div>
+              <div class="col-sm-1"></div>
+            </div>
+          </div>
+          <div class="col-sm-2"></div>
+        </div>
+        <!-- Go to Top button -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      </main>
+
+      <!-- Footer -->
+      <!-- <footer class="mastfoot mt-auto"></footer> -->
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="js/button.js"></script>
+  </body>
+</html>
